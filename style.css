@@ -1,5 +1,7 @@
 :root {
   --bg-color: #e5e5e5;
+  --primary-font-family: "Nunito", sans-serif;
+  --sec-font-family: "Poppins", sans-serif;
 }
 body {
   background-color: var(--bg-color);
@@ -15,6 +17,7 @@ body {
   width: 100%;
   height: 100%;
   color: #fff;
+  font-family: var(--primary-font-family);
 }
 
 .hero h1 {
@@ -25,6 +28,6 @@ body {
 .hero p {
   font-size: 24px;
   line-height: 1.5em;
-  margin-top: 5px;
+  margin-top: 0;
   padding-bottom: 30px;
 }
