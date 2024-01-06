@@ -2,21 +2,51 @@
   --bg-color: #fff;
   --primary-font-family: "Nunito", sans-serif;
   --sec-font-family: "Poppins", sans-serif;
+  --text-color: #272142;
 }
 body {
   background-color: var(--bg-color);
 }
+nav {
+  max-width: 75%;
+  margin: 10px auto;
+}
+a.active {
+  color: #9400d3;
+}
+a.active:hover {
+  color: #9400d3;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  line-height: 1em;
+  padding: 10px 20px !important;
+}
+
+.navbar-brand,
+.nav-link,
+.nav-link:hover {
+  color: var(--text-color);
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+}
 .container {
   width: 50%;
-  margin-top: 60px;
+  margin-top: 80px;
 }
+
 .container p {
-  margin-top: 10px 0 25px;
+  margin: 10px 0 25px;
   font-family: var(--primary-font-family);
 }
+
 .hero {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     url(images/bg.jpg);
   background-position: center;
@@ -30,7 +60,7 @@ body {
 
 .hero h1 {
   font-size: 72px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   padding-top: 30px;
 }
 .hero p {
