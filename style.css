@@ -12,6 +12,7 @@ body {
 }
 .container p {
   margin-top: 10px 0 25px;
+  font-family: var(--primary-font-family);
 }
 .hero {
   text-align: center;
