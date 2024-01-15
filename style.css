@@ -86,10 +86,11 @@ a.active:hover {
 .details {
   line-height: 1.5em;
   width: 50%;
-  padding: 0px 20px;
-  position: relative;
-  top: 50px;
-  left: -120px;
+  margin: 0 auto;
+}
+.recipe-image {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer {
