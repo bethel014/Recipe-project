@@ -12,11 +12,14 @@ nav {
   max-width: 75%;
   margin: 10px auto;
 }
-a.active {
-  color: #9400d3;
+
+.navbar-nav .nav-item a {
+  color: var(--text-color);
 }
-a.active:hover {
-  color: #9400d3;
+
+.navbar-nav .nav-item a:active,
+.navbar-nav .nav-item a.active {
+  color: #662eed;
 }
 
 .nav-link {
@@ -36,7 +39,7 @@ a.active:hover {
 .logo {
   font-size: 40px;
   font-weight: bold;
-  color: var(--text-color);
+  color: var(--text-color) !important;
 }
 .container {
   width: 50%;
