@@ -6,6 +6,7 @@
 }
 body {
   background-color: var(--bg-color);
+  color: var(--text-color);
 }
 nav {
   max-width: 75%;
@@ -76,23 +77,72 @@ a.active:hover {
 .about-hero {
   text-align: center;
 }
+.about-hero h1 {
+  font-size: 72px;
+  font-family: var(--primary-font-family);
+  color: var(--text-color);
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-bottom: 100px;
+}
 .intro {
   display: flex;
-  justify-content: space-around;
-}
-.intro-img {
-  margin-left: 100px;
+  margin-left: 150px;
 }
 .details {
+  padding-left: 30px;
   line-height: 1.5em;
-  width: 50%;
-  margin: 0 auto;
+  width: 500px;
 }
-.recipe-image {
+.details h2 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  line-height: 87px;
+  font-size: 64px;
+  color: var(--text-color);
+  margin: 50px 0 30px 0;
+}
+.details p {
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 0 30px 0;
+}
+.details h3 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+.favorite-recipe {
+  margin-bottom: 80px;
+}
+.favorite-recipe h2 {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+}
+.favorite-recipe h3 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.favorite-recipe-img {
   display: flex;
   justify-content: space-evenly;
 }
-
+.favorite-recipe-img p {
+  width: 350px;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
 .footer {
   display: flex;
   justify-content: space-evenly;
@@ -101,7 +151,8 @@ a.active:hover {
   padding: 10px;
 }
 
-.footer i {
+.footer i,
+.details i {
   padding: 10px;
   margin-top: 20px;
 }
