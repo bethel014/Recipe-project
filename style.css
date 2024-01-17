@@ -4,7 +4,7 @@
   --p-font-family: "Roboto", sans-serif;
   --text-color: #272142;
 }
-@media (max-width: 567px) {
+@media (min-width: 250px) and (max-width: 700px) {
   .hero {
     background: grey !important;
   }
@@ -70,7 +70,33 @@
     padding: 0 !important;
   }
 }
-
+@media (min-width: 701px) and (max-width: 1040px) {
+  .details h2 {
+    margin: 0px !important;
+  }
+  .details h3 {
+    font-size: 20px !important;
+  }
+  .details p {
+    padding: 0 !important;
+    font-size: 20px !important;
+  }
+  .intro-img {
+    width: 450px !important;
+  }
+  .favorite-recipe h2 {
+    margin: 20px !important;
+  }
+  .favorite-recipe-img {
+    display: block !important;
+    margin-left: 170px !important;
+  }
+  .favorite-recipe-img p {
+    font-size: 22px !important;
+    line-height: 1.5rem !important;
+    padding-bottom: 20px !important;
+  }
+}
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
