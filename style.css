@@ -105,6 +105,9 @@ nav {
   max-width: 75%;
   margin: 10px auto;
 }
+h1 {
+  font-size: 72px;
+}
 
 .navbar-nav .nav-item a {
   color: var(--text-color);
@@ -160,7 +163,6 @@ nav {
 }
 
 .hero h1 {
-  font-size: 72px;
   margin-bottom: 10px;
   padding-top: 30px;
 }
@@ -174,7 +176,6 @@ nav {
   text-align: center;
 }
 .about-hero h1 {
-  font-size: 72px;
   font-family: var(--primary-font-family);
   color: var(--text-color);
   font-weight: bold;
@@ -239,6 +240,32 @@ nav {
   font-size: 16px;
   line-height: 30px;
 }
+
+.recipe-container-img {
+  margin: 0 auto;
+  width: 760px;
+}
+.recipe-container h1 {
+  margin: 40px 0 70px 0;
+  text-align: center;
+}
+
+.recipe-container p {
+  width: 50%;
+}
+
+.recipe-container ul li {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  border-bottom: 1px dotted turquoise;
+  width: 360px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0 40px 0 0;
+}
+
 .footer {
   display: flex;
   justify-content: space-evenly;
