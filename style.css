@@ -245,6 +245,9 @@ h1 {
   margin: 0 auto;
   width: 760px;
 }
+.recipe-container-img h3 {
+  margin-left: 250px;
+}
 .recipe-container h1 {
   margin: 40px 0 70px 0;
   text-align: center;
