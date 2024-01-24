@@ -268,7 +268,59 @@ h1 {
   padding: 10px;
   margin: 0 40px 0 0;
 }
+header {
+  margin: 20px 0 100px 0;
+}
+main {
+  margin-bottom: 80px;
+}
+main img {
+  margin-left: 100px;
+}
+main i {
+  padding-right: 10px;
+}
+main h4 {
+  color: #662eed;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+main p {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 24px;
+  color: var(--text-color);
+}
 
+.contact-info {
+  margin-bottom: 40px;
+}
+@media (min-width: 770px) and (max-width: 1057px) {
+  .contact-info {
+    margin-left: 80px !important;
+  }
+  main .mt-5 {
+    margin-top: 20px !important;
+  }
+  header {
+    margin: 20px 0 50px 0 !important;
+  }
+  main.ms-5 {
+    margin-right: 46px !important;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    margin: 20px 0 20px 5px !important;
+  }
+  main img {
+    margin-left: 50px;
+  }
+}
 .footer {
   display: flex;
   justify-content: space-evenly;
