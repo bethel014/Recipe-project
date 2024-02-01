@@ -240,13 +240,16 @@ h1 {
   font-size: 16px;
   line-height: 30px;
 }
-
+.recipe-container-img h3 {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin: 30px 0 30px 0;
+}
 .recipe-container-img {
   margin: 0 auto;
   width: 760px;
-}
-.recipe-container-img h3 {
-  margin-left: 250px;
 }
 .recipe-container h1 {
   margin: 40px 0 70px 0;
@@ -255,6 +258,17 @@ h1 {
 
 .recipe-container p {
   width: 50%;
+}
+.steps {
+  border-bottom: 1px dotted turquoise;
+  width: 80%;
+}
+.steps h4 {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 25px;
 }
 
 .recipe-container ul li {
@@ -266,8 +280,25 @@ h1 {
   width: 360px;
   list-style-type: none;
   padding: 10px;
-  margin: 0 40px 0 0;
+  color: var(--text-color);
 }
+.recipe-container ul {
+  margin: 50px 0 0 180px;
+}
+.preparation h5 {
+  color: #f65282;
+  font-size: 18px;
+  font-family: var(--primary-font-family);
+  font-weight: 800;
+}
+.preparation p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--primary-font-family);
+  color: var(--text-color);
+  line-height: 30px;
+}
+
 header {
   margin: 20px 0 100px 0;
 }
